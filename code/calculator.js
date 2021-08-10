@@ -8,4 +8,4 @@ const calculator = {
     multiply: (a, b) => a * b,
 };
 
-export { calculator as default };
+module.exports = calculator;

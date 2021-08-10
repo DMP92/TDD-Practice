@@ -49,4 +49,4 @@ const arrayAnalysis = (() => {
     };
 })();
 
-export { arrayAnalysis as default };
+module.exports = arrayAnalysis;

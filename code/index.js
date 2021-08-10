@@ -13,4 +13,4 @@ const manipulateString = (() => {
     };
 })();
 
-export { manipulateString as default };
+module.exports = manipulateString;
