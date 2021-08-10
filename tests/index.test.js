@@ -1,8 +1,9 @@
 import { expect, test } from '@jest/globals';
-import manipulateString from './index';
-import calculator from './calculator';
-import caesar from './caesarCipher';
-import arrayAnalysis from './ArrayAnalysis';
+
+const manipulateString = require('../code/index');
+const calculator = require('../code/calculator');
+const caesar = require('../code/caesarCipher');
+const arrayAnalysis = require('../code/ArrayAnalysis');
 // String tests
 test('capitalizes the string given', () => {
     expect(manipulateString.capitalize('string')).toBe('String');
